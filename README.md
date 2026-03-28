@@ -44,6 +44,7 @@ Whether the body leaves a trail behind it as it moves.<br><br>
 **retain**<br>
 how long the trail is, higher values mean longer trails but more lag.<br><br>
 
+##Camera
 <img width="459" height="129" alt="image" src="https://github.com/user-attachments/assets/37346093-30eb-4772-b3cf-27c9fe513aeb" /><br>
 Title: The window title. <br>
 Width, height: The VPython window size. <br>
