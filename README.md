@@ -6,10 +6,10 @@ This program requires VPython for 3D graphics
 
 ## Installation
 
-Install it with 
+Install it with <br>
 pip install vpython
 
-Run the program as 
+Run the program as <br>
 python three_body.py
 
 ## Different variable
