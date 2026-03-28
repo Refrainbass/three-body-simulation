@@ -60,6 +60,15 @@ The second one is Velocity, changing this will change the direction and speed at
 The third value is Mass, changing this will change the gravity of the body; the higher the number, the stronger the pull.<br>
 The fourth value is the radius, which only changes the **VISUAL** size of the body.<br>
 
+## Math
+The math used in this simulation is Newton's Law of Universal Gravitation in vector form to compute the gravitational acceleration between bodies.
+<img width="644" height="356" alt="image" src="https://github.com/user-attachments/assets/bfc3b79a-7082-45ba-a48e-9c908bc49524" /> <br>
+This only gives the strength of the force but not the direction, so we will need to convert it into vector form. <br>
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/3b05415d-cd34-48b8-8d9b-2405aee121b4" /> <br>
+
+
+
+
 
 
 
