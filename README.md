@@ -65,6 +65,16 @@ The math used in this simulation is Newton's Law of Universal Gravitation in vec
 <img width="644" height="356" alt="image" src="https://github.com/user-attachments/assets/bfc3b79a-7082-45ba-a48e-9c908bc49524" /> <br>
 This only gives the strength of the force but not the direction, so we will need to convert it into vector form. <br>
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/3b05415d-cd34-48b8-8d9b-2405aee121b4" /> <br>
+Since the simulation uses acceleration instead of force:<br>
+The equation will change from <br>
+<img width="178" height="68" alt="image" src="https://github.com/user-attachments/assets/97b7eb8e-5ffe-4cf0-8e6f-0bd3b81ba65d" /><br>
+To<br>
+<img width="217" height="80" alt="image" src="https://github.com/user-attachments/assets/9f5b29bd-c3c7-440b-92ee-da53f2a4af3a" /><br>
+This form includes the direction and inverse-square strength, which can be seen in the code.
+<img width="365" height="23" alt="image" src="https://github.com/user-attachments/assets/a149b19a-6380-4ec0-afe8-6e85d52037c6" /><br>
+
+
+
 
 
 
