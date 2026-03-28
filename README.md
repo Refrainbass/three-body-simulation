@@ -72,6 +72,10 @@ To<br>
 <img width="217" height="80" alt="image" src="https://github.com/user-attachments/assets/9f5b29bd-c3c7-440b-92ee-da53f2a4af3a" /><br>
 This form includes the direction and inverse-square strength, which can be seen in the code.
 <img width="365" height="23" alt="image" src="https://github.com/user-attachments/assets/a149b19a-6380-4ec0-afe8-6e85d52037c6" /><br>
+It is dist**3 because r/ |r| gives the direction and 1 / |r|^z gives the strength. Combining these 2 we will get
+<img width="185" height="89" alt="image" src="https://github.com/user-attachments/assets/d2c5aa4e-6d51-4138-942a-29e38e7a308f" /> <br>
+Gravity will become infinite when 2 bodies get extremely close, since the simulation cannot handle that. We will add a tiny number to the equation <img width="204" height="60" alt="image" src="https://github.com/user-attachments/assets/142e54e7-5d16-42bc-b80f-c865f09a1a5e" />, which prevents infinite acceleration, and it is a standard technique in N-body simulations.
+
 
 
 
