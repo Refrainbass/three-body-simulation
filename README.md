@@ -16,5 +16,9 @@ python three_body.py
 Then a window will pop up in your browser with the animation playing
 
 
-<img width="811" height="423" alt="image" src="https://github.com/user-attachments/assets/34a4cd84-9e01-42ee-86f1-83755467b89e" />
-G is the gravity the higher it is the faster orbits, same with the other way around
+<img width="811" height="423" alt="image" src="https://github.com/user-attachments/assets/34a4cd84-9e01-42ee-86f1-83755467b89e" /> <br>
+G, gravity strength (higher = faster orbits, lower = slower). <br><br>
+
+dt, simulation time step.<br>
+Smaller = smoother and more accurate.<br>
+Larger = faster but less stable.<br>
