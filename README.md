@@ -52,5 +52,16 @@ Width, height: The VPython window size. <br>
 Scene.camera.pos: The position of the camera. <br>
 Scene.camera.axis: The direction of the camera is pointing. <br>
 
+## Customizing the Bodies
+
+<img width="783" height="123" alt="image" src="https://github.com/user-attachments/assets/0d7c70e2-3326-468b-95e3-decfb353308a" /> <br>
+The first one is position; changing this will move the body to a new starting location. <br>
+The second one is Velocity, changing this will change the direction and speed at which the body starts moving. <br>
+The third value is Mass, changing this will change the gravity of the body; the higher the number, the stronger the pull.<br>
+The fourth value is the radius, which only changes the **VISUAL** size of the body.<br>
+
+
+
+
 
 
