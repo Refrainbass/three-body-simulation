@@ -23,10 +23,23 @@ dt, simulation time step.<br>
 Smaller = smoother and more accurate.<br>
 Larger = faster but less stable.<br>
 
-**pos**, the body's starting position in 3D space, determines where the planet begins.<br>
-**vel**, the initial velocity, controls the direction and speed at which the planet moves at the start.<br>
-**mass**, how heavy the body is, higher mass means stronger gravity pull on other bodies.<br>
-**radius**, the visual size of the sphere, only affects appearance, not physics.<br>
-**col**, the color of the body, purely visual.<br>
-**make_trail**, whether the body leaves a trail behind it as it moves.<br>
-**retain**, how long the trail is, higher values mean longer trails but more lag.<br>
+**pos** <br>
+the body's starting position in 3D space, determines where the planet begins.<br><br>
+
+**vel** <br>
+The initial velocity controls the direction and speed at which the planet moves at the start.<br><br>
+
+**mass** <br>
+how heavy the body is, higher mass means stronger gravity pull on other bodies.<br><br>
+
+**radius**<br>
+The visual size of the sphere only affects appearance, not physics.<br><br>
+
+**col**<br>
+The color of the body is purely visual.<br><br>
+
+**make_trail**<br>
+Whether the body leaves a trail behind it as it moves.<br><br>
+
+**retain**<br>
+how long the trail is, higher values mean longer trails but more lag.<br><br>
