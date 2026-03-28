@@ -74,7 +74,7 @@ This form includes the direction and inverse-square strength, which can be seen 
 <img width="365" height="23" alt="image" src="https://github.com/user-attachments/assets/a149b19a-6380-4ec0-afe8-6e85d52037c6" /><br>
 It is dist**3 because r/ |r| gives the direction and 1 / |r|^z gives the strength. Combining these 2 we will get
 <img width="185" height="89" alt="image" src="https://github.com/user-attachments/assets/d2c5aa4e-6d51-4138-942a-29e38e7a308f" /> <br>
-Gravity will become infinite when 2 bodies get extremely close, since the simulation cannot handle that. We will add a tiny number to the equation <img width="204" height="60" alt="image" src="https://github.com/user-attachments/assets/142e54e7-5d16-42bc-b80f-c865f09a1a5e" />, which prevents infinite acceleration, and it is a standard technique in N-body simulations.
+Gravity will become infinite when 2 bodies get extremely close, since the simulation cannot handle that. We will add a tiny number to the equation <img width="204" height="60" alt="image" src="https://github.com/user-attachments/assets/142e54e7-5d16-42bc-b80f-c865f09a1a5e" />, which prevents infinite acceleration, and it is a standard technique in N-body simulations.<br>
 This is only 1 of the many periodic solutions. More can be simulated by changing the custom bodies' values.<br>
 <img width="261" height="259" alt="image" src="https://github.com/user-attachments/assets/70b75833-664b-438b-936c-873288e4c6dd" />
 
