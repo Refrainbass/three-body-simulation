@@ -4,14 +4,15 @@ It visualizes the classic three‑body problem using VPython and allows you to e
 
 This program requires VPython for 3D graphics
 
+## Installation
+
 Install it with 
 pip install vpython
-
 
 Run the program as 
 python three_body.py
 
-
+## Different variable
 Then a window will pop up in your browser with the animation playing
 
 
