@@ -7,6 +7,7 @@ Install it with
 
 pip install vpython
 
+
 Run the program as 
 
 python three_body.py
