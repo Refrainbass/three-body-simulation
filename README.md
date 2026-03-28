@@ -3,14 +3,14 @@ This project is a real‑time simulation that demonstrates how three planetary b
 It visualizes the classic three‑body problem using VPython and allows you to explore how different initial conditions affect the motion.
 
 This program requires VPython for 3D graphics
-Install it with 
 
+Install it with 
 pip install vpython
 
 
 Run the program as 
-
 python three_body.py
+
 
 Then a window will pop up in your browser with the animation playing
 
